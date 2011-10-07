@@ -1,0 +1,23 @@
+<package>
+  <description brief="JRL matrix abstraction layer">
+
+    The JRL matrix abstraction layer provides a compatible
+    interface between different matrix libraries.
+
+  </description>
+  <author>See package AUTHORS file.</author>
+  <license>LGPL</license>
+  <review status="experimental" notes=""/>
+  <url>http://ros.org/wiki/jrl-mal</url>
+
+  <export>
+    <rosdoc
+       external=
+       "http://jrl-umi3218.github.com/jrl-mal/doxygen/HEAD/index.html" />
+  </export>
+  <rosdep name="git"/>
+  <rosdep name="boost"/>
+  <depend package="jrl-mathtools"/>
+  <versioncontrol type="git"
+		  url="git://github.com/jrl-umi3218/jrl-mal.git"/>
+</package>
